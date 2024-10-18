@@ -270,7 +270,6 @@ def main():
 
     file = get_file_selection()
     map = Map(file)
-    # time_interval = input("")
     map.a_star(0)
 
 
