@@ -270,7 +270,7 @@ def main():
 
     file = get_file_selection()
     map = Map(file)
-    map.a_star(0)
+    map.a_star(0.25)
 
 
 if __name__ == "__main__":
